@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "demo-server": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "cd /d D:\\Development\\GitHub\\FastDev(MCP-Ragna)\\fastmcp && venv\\Scripts\\activate.bat && fastmcp run demo_server.py --no-banner"
+      ]
+    }
+  }
+}
