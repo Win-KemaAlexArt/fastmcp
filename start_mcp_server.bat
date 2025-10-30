@@ -36,4 +36,4 @@ echo Old processes stopped
 echo.
 
 call ..\venv\Scripts\activate.bat
-fastmcp run demo_server.py
+..\venv\Scripts\fastmcp.exe run demo_server.py

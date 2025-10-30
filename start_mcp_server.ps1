@@ -46,4 +46,4 @@ Write-Host ""
 
 # Активируем venv и запускаем сервер
 & '..\venv\Scripts\Activate.ps1'
-fastmcp run demo_server.py
+& '..\venv\Scripts\fastmcp.exe' run demo_server.py

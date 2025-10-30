@@ -40,4 +40,4 @@ Write-Host "✅ Старые процессы завершены" -ForegroundCol
 
 # Активируем venv и запускаем dev режим
 & '..\venv\Scripts\Activate.ps1'
-fastmcp dev demo_server.py
+& '..\venv\Scripts\fastmcp.exe' dev demo_server.py
